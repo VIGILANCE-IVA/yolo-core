@@ -3,8 +3,8 @@ import os
 import cv2
 import pytesseract
 
-from core.config import cfg
-from core.utils import read_class_names
+from .config import cfg
+from .utils import read_class_names
 
 
 # function to count objects, can return total classes or count per class

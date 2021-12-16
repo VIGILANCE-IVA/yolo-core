@@ -1,8 +1,9 @@
 #! /usr/bin/env python
 # coding=utf-8
 
-import core.common as common
 import tensorflow as tf
+
+import common
 
 
 def darknet53(input_data):
