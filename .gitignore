@@ -1,0 +1,4 @@
+venv
+dist
+build
+yolo_core.egg-info
