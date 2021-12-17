@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 # coding=utf-8
+
 from easydict import EasyDict as edict
 
 __C                           = edict()

@@ -8,4 +8,5 @@ setup(
     author='Paul Jeremiah Mugaya',
     install_requires=['tensorflow', 'pytesseract', 'easydict', 'opencv-python==4.1.1.26'],
     license='MIT',
+    data_files=[('classes', ['data/classes/coco.names'])]
 )
