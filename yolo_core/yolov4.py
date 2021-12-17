@@ -4,17 +4,10 @@
 import numpy as np
 import tensorflow as tf
 
-import backbone
-import common
-import utils
+import yolo_core.backbone as backbone
+import yolo_core.common as common
+import yolo_core.utils as utils
 
-from .config import cfg
-
-# NUM_CLASS       = len(utils.read_class_names(cfg.YOLO.CLASSES))
-# STRIDES         = np.array(cfg.YOLO.STRIDES)
-# IOU_LOSS_THRESH = cfg.YOLO.IOU_LOSS_THRESH
-# XYSCALE = cfg.YOLO.XYSCALE
-# ANCHORS = utils.get_anchors(cfg.YOLO.ANCHORS)
 
 def YOLO(input_layer, NUM_CLASS, model='yolov4', is_tiny=False):
     if is_tiny:

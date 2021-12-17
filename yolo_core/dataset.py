@@ -9,7 +9,7 @@ import numpy as np
 import tensorflow as tf
 
 import utils
-from config import cfg
+from yolo_core.config import cfg
 
 
 class Dataset(object):

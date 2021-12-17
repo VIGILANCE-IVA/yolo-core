@@ -7,7 +7,7 @@ import numpy as np
 import pytesseract
 import tensorflow as tf
 
-from .config import cfg
+from yolo_core.config import cfg
 
 # If you don't have tesseract executable in your PATH, include the following:
 # pytesseract.pytesseract.tesseract_cmd = r'<full_path_to_your_tesseract_executable>'

@@ -3,7 +3,7 @@
 
 import tensorflow as tf
 
-import common
+import yolo_core.common as common
 
 
 def darknet53(input_data):
